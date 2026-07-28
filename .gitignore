@@ -1,0 +1,22 @@
+# Секреты и конфиг
+.env
+
+# Сессия Telethon - фактически равнозначна ключу доступа к аккаунту
+*.session
+*.session-journal
+
+# Результат работы скрипта - личные данные, в репозиторий не кладём
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
